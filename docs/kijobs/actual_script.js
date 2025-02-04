@@ -16,6 +16,10 @@ async function loadData() {
             throw new Error('Network response was not ok');
         }
         originalData = await response.json();
+        if (window.jobFilters !=undefined && window.jobFilters.length != 0){
+            // Filter the jobs by the name from window filter
+            originalData = originalData.filter(job => jobFilters.includes(job.job.toLowerCase()));
+        }
         filteredData = [...originalData];
         populateCategoryFilter();
         updateTable();

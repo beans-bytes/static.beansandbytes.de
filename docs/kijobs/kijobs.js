@@ -1,4 +1,13 @@
 const me = document.currentScript;
+
+const jobFilterAttr = me.getAttribute("data-jobs");
+let specialEmbedInstruct = "";
+if (jobFilterAttr != null && jobFilterAttr != ""){
+    window.jobFilters = jobFilterAttr.toLowerCase().split(",");
+    specialEmbedInstruct = ` data-jobs="${ jobFilterAttr }" `
+}
+
+
 const widgetNode = document.createElement("div");
 widgetNode.classList.add("container");
 widgetNode.style.maxWidth="800px";
@@ -69,7 +78,7 @@ shadowRoot.innerHTML = `
         <tbody id="dataBody"></tbody>
     </table>
     </div>
-    <div id="embedInstruct">Sie können diese Visualisierung auf Ihrer eigenen Website einbinden. Kopieren sie einfach diesen Code:<br><code>&lt;script src="${me.src}" &gt;&lt;/script&gt;</code></div>
+    <div id="embedInstruct">Sie können diese Visualisierung auf Ihrer eigenen Website einbinden. Kopieren sie einfach diesen Code:<br><code>&lt;script src="${me.src}"${specialEmbedInstruct} &gt;&lt;/script&gt;</code></div>
 `;
 
 
@@ -84,6 +93,7 @@ chartJsPluginScript.onload = function(){
     
 const mainScript = document.createElement('script');
 mainScript.src = 'https://static.beansandbytes.de/kijobs/actual_script.js';
+
 shadowRoot.appendChild(mainScript);
 
 };
