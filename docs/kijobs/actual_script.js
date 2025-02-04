@@ -123,8 +123,8 @@ const chart = new Chart(ctx, {
 });
 
 const addLabelsAndBackground = () => {
-    const width = canvas.width;
-    const height = canvas.height;
+    const width = canvas.clientWidth;
+    const height = canvas.clientHeight;
 
     ctx.beginPath();
     ctx.strokeStyle = '#000000';
