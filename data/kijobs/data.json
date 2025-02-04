@@ -1,0 +1,1142 @@
+ [
+  {
+    "category": "Gesundheitswesen",
+    "job": "Allgemeinmediziner",
+    "creative": -5,
+    "social": 6
+  },
+  {
+    "category": "Dienstleistung",
+    "job": "Altenheimmitarbeiter",
+    "creative": 8,
+    "social": 8
+  },
+  {
+    "category": "Gesundheitswesen",
+    "job": "Altenpflegehelfer",
+    "creative": 1.8,
+    "social": 8.5
+  },
+  {
+    "category": "Ingenieur",
+    "job": "Analyst für Informationssicherheit",
+    "creative": 5,
+    "social": -1
+  },
+  {
+    "category": "Experte",
+    "job": "Anwalt für Strafverteidigung",
+    "creative": 9,
+    "social": 9.5
+  },
+  {
+    "category": "Gesundheitswesen",
+    "job": "Apotheker",
+    "creative": 2.3,
+    "social": 7.5
+  },
+  {
+    "category": "Physisch",
+    "job": "Arbeiter auf der Baustelle (Finish)",
+    "creative": 2.7,
+    "social": 2
+  },
+  {
+    "category": "Physisch",
+    "job": "Arbeiter für industrielle Reinigungsverfahren",
+    "creative": -4.5,
+    "social": -2
+  },
+  {
+    "category": "Experte",
+    "job": "Architekt",
+    "creative": 8,
+    "social": 9.5
+  },
+  {
+    "category": "Manager",
+    "job": "Assistent der Gesellschaft",
+    "creative": -0.8,
+    "social": 7.5
+  },
+  {
+    "category": "Manager",
+    "job": "Assistentin des CEO",
+    "creative": -0.3,
+    "social": 8
+  },
+  {
+    "category": "Gesundheitswesen",
+    "job": "Augenoptiker",
+    "creative": 2.5,
+    "social": 6.5
+  },
+  {
+    "category": "Dienstleistung",
+    "job": "Barkeeper",
+    "creative": -8,
+    "social": 6
+  },
+  {
+    "category": "Physisch",
+    "job": "Bauarbeiter (allgemein)",
+    "creative": -2,
+    "social": 2
+  },
+  {
+    "category": "Ingenieur",
+    "job": "Bauingenieur",
+    "creative": 2.3,
+    "social": 4.5
+  },
+  {
+    "category": "Dienstleistung",
+    "job": "Beamte des Strafvollzugsdienstes",
+    "creative": 2.6,
+    "social": 8.5
+  },
+  {
+    "category": "Dienstleistung",
+    "job": "Beauftragter für Humanressourcen und Arbeitsbeziehungen",
+    "creative": 4.5,
+    "social": 8.5
+  },
+  {
+    "category": "Bildung",
+    "job": "Beauftragter für Kinder und frühkindliche Bildung",
+    "creative": 8,
+    "social": 9.5
+  },
+  {
+    "category": "Regierung",
+    "job": "Beauftragter für Sicherheit und Gesundheitsschutz",
+    "creative": 6.5,
+    "social": 5.5
+  },
+  {
+    "category": "Kunst",
+    "job": "Belletristik Autor",
+    "creative": 8.5,
+    "social": -4
+  },
+  {
+    "category": "Bildung",
+    "job": "Berufs- und Industrieausbilder",
+    "creative": 7,
+    "social": 9
+  },
+  {
+    "category": "Dienstleistung",
+    "job": "Berufsberaterin und Fachkraft für Berufsberatung",
+    "creative": 8.5,
+    "social": 8.5
+  },
+  {
+    "category": "Dienstleistung",
+    "job": "Bestatter",
+    "creative": -0.6,
+    "social": 8.5
+  },
+  {
+    "category": "Regierung",
+    "job": "Bewährungshelfer",
+    "creative": 4.6,
+    "social": 9
+  },
+  {
+    "category": "Forschung",
+    "job": "Biowissenschaftler oder Biochemiker",
+    "creative": 8,
+    "social": -2.5
+  },
+  {
+    "category": "Dienstleistung",
+    "job": "Café-Kellner",
+    "creative": -4,
+    "social": 4
+  },
+  {
+    "category": "Dienstleistung",
+    "job": "Caterer",
+    "creative": -6,
+    "social": 9
+  },
+  {
+    "category": "Manager",
+    "job": "CEO",
+    "creative": 7.85,
+    "social": 8.5
+  },
+  {
+    "category": "Manager",
+    "job": "CFO",
+    "creative": 6.5,
+    "social": 6.5
+  },
+  {
+    "category": "Dienstleistung",
+    "job": "Chefkoch eines Spitzenrestaurants",
+    "creative": 8.5,
+    "social": 8
+  },
+  {
+    "category": "Dienstleistung",
+    "job": "Chefkonditor der gehobenen Klasse",
+    "creative": 7,
+    "social": 7
+  },
+  {
+    "category": "Forschung",
+    "job": "Chemiker",
+    "creative": 7.75,
+    "social": -2
+  },
+  {
+    "category": "Forschung",
+    "job": "Chemikerin",
+    "creative": 7.5,
+    "social": -2
+  },
+  {
+    "category": "Manager",
+    "job": "CTO",
+    "creative": 8,
+    "social": 8.5
+  },
+  {
+    "category": "Forschung",
+    "job": "Datenwissenschaftler",
+    "creative": 3.5,
+    "social": 2.5
+  },
+  {
+    "category": "Ingenieur",
+    "job": "Direktor für IT und Telekommunikation",
+    "creative": 7.5,
+    "social": 7.5
+  },
+  {
+    "category": "Kunst",
+    "job": "Dramatiker und Drehbuchautor",
+    "creative": 7,
+    "social": 6.5
+  },
+  {
+    "category": "Dienstleistung",
+    "job": "Eheberater",
+    "creative": 8,
+    "social": 10
+  },
+  {
+    "category": "Büro/Sachbearbeiter",
+    "job": "Einfacher Übersetzer",
+    "creative": -4,
+    "social": -7
+  },
+  {
+    "category": "Ingenieur",
+    "job": "Elektroingenieur",
+    "creative": 5.5,
+    "social": 2.5
+  },
+  {
+    "category": "Physisch",
+    "job": "Fahrer von Straßeninstandhaltung",
+    "creative": 4,
+    "social": 8
+  },
+  {
+    "category": "Physisch",
+    "job": "Fahrzeugführerin",
+    "creative": -2,
+    "social": 6.5
+  },
+  {
+    "category": "Techniker",
+    "job": "Fahrzeugtechniker",
+    "creative": 2.8,
+    "social": 2.5
+  },
+  {
+    "category": "Dienstleistung",
+    "job": "Fast-Food-Zubereiter",
+    "creative": -8,
+    "social": -6
+  },
+  {
+    "category": "Büro/Sachbearbeiter",
+    "job": "Finanzplaner",
+    "creative": -7,
+    "social": 2
+  },
+  {
+    "category": "Dienstleistung",
+    "job": "Fitness-Trainer",
+    "creative": 7.5,
+    "social": 8
+  },
+  {
+    "category": "Experte",
+    "job": "Fluglotse",
+    "creative": 3,
+    "social": 2
+  },
+  {
+    "category": "Experte",
+    "job": "Fotograf oder Bediener von AV-Geräten",
+    "creative": 7.5,
+    "social": 6
+  },
+  {
+    "category": "Unterhaltung",
+    "job": "Freizeit- und Reisedienstleister",
+    "creative": 3,
+    "social": 8
+  },
+  {
+    "category": "Tourismus",
+    "job": "Fremdenführer",
+    "creative": -4,
+    "social": 5
+  },
+  {
+    "category": "Dienstleistung",
+    "job": "Friseur oder Barbier",
+    "creative": 3.9,
+    "social": 9
+  },
+  {
+    "category": "Dienstleistung",
+    "job": "Fruchterntenkraft",
+    "creative": -8,
+    "social": -9
+  },
+  {
+    "category": "Physisch",
+    "job": "Gärtner",
+    "creative": 4.5,
+    "social": -2
+  },
+  {
+    "category": "Experte",
+    "job": "Geistliches Mitglied",
+    "creative": 5.3,
+    "social": 9
+  },
+  {
+    "category": "Experte",
+    "job": "Geprüfter Architekturtechnologe",
+    "creative": 6.5,
+    "social": 7
+  },
+  {
+    "category": "Experte",
+    "job": "Geprüfter Sachverständiger",
+    "creative": 6.5,
+    "social": 3
+  },
+  {
+    "category": "Gesundheitswesen",
+    "job": "Gesundheitsfachkraft",
+    "creative": 4,
+    "social": 8.5
+  },
+  {
+    "category": "Physisch",
+    "job": "Glas- und Keramikhersteller",
+    "creative": 3.2,
+    "social": -4
+  },
+  {
+    "category": "Manager",
+    "job": "GMO",
+    "creative": 7.25,
+    "social": 8.75
+  },
+  {
+    "category": "Kunst",
+    "job": "Grafikdesigner",
+    "creative": 4,
+    "social": -6
+  },
+  {
+    "category": "Dienstleistung",
+    "job": "Haarstylist",
+    "creative": 7,
+    "social": 6
+  },
+  {
+    "category": "Dienstleistung",
+    "job": "Haushälterin",
+    "creative": -3.4,
+    "social": 2
+  },
+  {
+    "category": "Dienstleistung",
+    "job": "Hausreinigungskraft",
+    "creative": 5,
+    "social": -5
+  },
+  {
+    "category": "Gesundheitswesen",
+    "job": "Hebamme",
+    "creative": 7.5,
+    "social": 9
+  },
+  {
+    "category": "Physisch",
+    "job": "Hersteller und Reparateur von Präzisionsinstrumenten",
+    "creative": 5,
+    "social": -4.5
+  },
+  {
+    "category": "Techniker",
+    "job": "Hoch- und Tiefbautechniker",
+    "creative": 1.5,
+    "social": 2
+  },
+  {
+    "category": "Bildung",
+    "job": "Hochschullehrer",
+    "creative": 4.7,
+    "social": 9
+  },
+  {
+    "category": "Dienstleistung",
+    "job": "Hochwertiges Reisebüro",
+    "creative": 7.5,
+    "social": 9
+  },
+  {
+    "category": "Dienstleistung",
+    "job": "Hochzeitsplaner",
+    "creative": -8,
+    "social": 8
+  },
+  {
+    "category": "Dienstleistung",
+    "job": "Hundetrainer",
+    "creative": 6,
+    "social": 4
+  },
+  {
+    "category": "Ingenieur",
+    "job": "Ingenieur für Klimatisierung und Kältetechnik",
+    "creative": 2.8,
+    "social": 2.5
+  },
+  {
+    "category": "Ingenieur",
+    "job": "Ingenieur für Qualitätskontrolle und Planung",
+    "creative": 4,
+    "social": 3
+  },
+  {
+    "category": "Ingenieur",
+    "job": "Ingenieure für Telekommunikation",
+    "creative": 7,
+    "social": 1
+  },
+  {
+    "category": "Kunst",
+    "job": "Innenarchitekt",
+    "creative": 8,
+    "social": 8.5
+  },
+  {
+    "category": "Ingenieur",
+    "job": "IT- und Telekommunikationsfachleute",
+    "creative": 4,
+    "social": 3
+  },
+  {
+    "category": "Ingenieur",
+    "job": "IT-Business-Analyst",
+    "creative": 6,
+    "social": 7
+  },
+  {
+    "category": "Ingenieur",
+    "job": "IT-Ingenieur",
+    "creative": 4.5,
+    "social": 3
+  },
+  {
+    "category": "Experte",
+    "job": "Journalist",
+    "creative": 8,
+    "social": 6.5
+  },
+  {
+    "category": "Dienstleistung",
+    "job": "Jugend- und Sozialarbeiter",
+    "creative": 8,
+    "social": 9
+  },
+  {
+    "category": "Dienstleistung",
+    "job": "Kassierer",
+    "creative": -9,
+    "social": -4
+  },
+  {
+    "category": "Dienstleistung",
+    "job": "Kellner oder Kellnerin in einem gehobenen Restaurant",
+    "creative": 4.65,
+    "social": 8.75
+  },
+  {
+    "category": "Forschung",
+    "job": "KI-Wissenschaftler",
+    "creative": 6.5,
+    "social": 2.5
+  },
+  {
+    "category": "Gesundheitswesen",
+    "job": "Kinderarzt/Gynäkologe",
+    "creative": 6.5,
+    "social": 9
+  },
+  {
+    "category": "Dienstleistung",
+    "job": "Kinderbetreuer",
+    "creative": 6.5,
+    "social": 9
+  },
+  {
+    "category": "Physisch",
+    "job": "Klempner",
+    "creative": 4,
+    "social": 3
+  },
+  {
+    "category": "Kunst",
+    "job": "Kolumnist",
+    "creative": 7.5,
+    "social": 3.5
+  },
+  {
+    "category": "Ingenieur",
+    "job": "Konstruktions- und Entwicklungsingenieur",
+    "creative": 8,
+    "social": 3.5
+  },
+  {
+    "category": "Dienstleistung",
+    "job": "Kosmetikerin / Maniküre",
+    "creative": 5.5,
+    "social": 9
+  },
+  {
+    "category": "Physisch",
+    "job": "Krankenhauspförtner",
+    "creative": -3,
+    "social": 6.5
+  },
+  {
+    "category": "Gesundheitswesen",
+    "job": "Krankenpflegehelfer und -assistenten",
+    "creative": 2,
+    "social": 9
+  },
+  {
+    "category": "Gesundheitswesen",
+    "job": "Krankenschwester",
+    "creative": 7,
+    "social": 9
+  },
+  {
+    "category": "Experte",
+    "job": "Kreditprüfer",
+    "creative": 2.5,
+    "social": 4
+  },
+  {
+    "category": "Kunst",
+    "job": "Kulturbeauftragter",
+    "creative": 7.5,
+    "social": 9
+  },
+  {
+    "category": "Büro/Sachbearbeiter",
+    "job": "Kundendienstmitarbeiter",
+    "creative": -7,
+    "social": -4
+  },
+  {
+    "category": "Kunst",
+    "job": "Künstler",
+    "creative": 6,
+    "social": -8
+  },
+  {
+    "category": "Techniker",
+    "job": "Laborant",
+    "creative": -1.5,
+    "social": -4
+  },
+  {
+    "category": "Bildung",
+    "job": "Lehrer",
+    "creative": -6,
+    "social": 7
+  },
+  {
+    "category": "Bildung",
+    "job": "Lehrer für Sonderpädagogik",
+    "creative": 8.5,
+    "social": 10
+  },
+  {
+    "category": "Bildung",
+    "job": "Lehrkraft für den Primar- und Kindergartenbereich",
+    "creative": 4.57,
+    "social": 9
+  },
+  {
+    "category": "Bildung",
+    "job": "Lehrkraft für den Sekundarbereich",
+    "creative": 8.5,
+    "social": 9
+  },
+  {
+    "category": "Bildung",
+    "job": "Lehrkraft in der Weiterbildung",
+    "creative": 3.9,
+    "social": 9
+  },
+  {
+    "category": "Bildung",
+    "job": "Lehrkräfte und pädagogische Fachkräfte",
+    "creative": 5.5,
+    "social": 9
+  },
+  {
+    "category": "Kunst",
+    "job": "Leitartikler",
+    "creative": 7,
+    "social": -4
+  },
+  {
+    "category": "Dienstleistung",
+    "job": "Lkw-Fahrer",
+    "creative": -7,
+    "social": -9
+  },
+  {
+    "category": "Bildung",
+    "job": "Logopädin und Sprachtherapeutin",
+    "creative": 7.5,
+    "social": 9
+  },
+  {
+    "category": "Ingenieur",
+    "job": "Luftfahrzeugpilot oder Flugingenieur",
+    "creative": 5,
+    "social": 5.5
+  },
+  {
+    "category": "Physisch",
+    "job": "Luftfahrzeugwartung und verwandte Berufe",
+    "creative": 0.9,
+    "social": 1
+  },
+  {
+    "category": "Dienstleistung",
+    "job": "Luxushotel-Rezeptionist",
+    "creative": -5,
+    "social": 5
+  },
+  {
+    "category": "Experte",
+    "job": "M&A-Experte",
+    "creative": 8.5,
+    "social": 8.5
+  },
+  {
+    "category": "Ingenieur",
+    "job": "Maschinenbauingenieur",
+    "creative": 5.1,
+    "social": 1.5
+  },
+  {
+    "category": "Gesundheitswesen",
+    "job": "Masseurin/Chiropraktikerin",
+    "creative": 8.5,
+    "social": 9
+  },
+  {
+    "category": "Gesundheitswesen",
+    "job": "Medizinerin",
+    "creative": 7.5,
+    "social": 9
+  },
+  {
+    "category": "Gesundheitswesen",
+    "job": "Medizinforscher",
+    "creative": 8,
+    "social": -6
+  },
+  {
+    "category": "Dienstleistung",
+    "job": "Mieten und andere Geldeintreiber",
+    "creative": -2.5,
+    "social": 4.5
+  },
+  {
+    "category": "Dienstleistung",
+    "job": "Montageinspektor",
+    "creative": -5,
+    "social": -7
+  },
+  {
+    "category": "Unterhaltung",
+    "job": "Musikerin",
+    "creative": 5.3,
+    "social": 9
+  },
+  {
+    "category": "Dienstleistung",
+    "job": "Nachtwächter",
+    "creative": 3,
+    "social": -7
+  },
+  {
+    "category": "Experte",
+    "job": "Natur- und sozialwissenschaftliche Fachkräfte",
+    "creative": 8.5,
+    "social": 3
+  },
+  {
+    "category": "Forschung",
+    "job": "Naturwissenschaftler",
+    "creative": 7.5,
+    "social": 1.5
+  },
+  {
+    "category": "Bildung",
+    "job": "Tutor",
+    "creative": -6,
+    "social": 1
+  },
+  {
+    "category": "Gesundheitswesen",
+    "job": "Personal des Rettungsdienstes (ohne Sanitäter)",
+    "creative": 3.5,
+    "social": 8
+  },
+  {
+    "category": "Büro/Sachbearbeiter",
+    "job": "Persönlicher Steuerberater",
+    "creative": -6,
+    "social": -5
+  },
+  {
+    "category": "Gesundheitswesen",
+    "job": "Pflegebegleiter",
+    "creative": -0.5,
+    "social": 8.5
+  },
+  {
+    "category": "Gesundheitswesen",
+    "job": "Pflegekraft und Hauspflegerin",
+    "creative": 4,
+    "social": 9
+  },
+  {
+    "category": "Techniker",
+    "job": "Pharmazeutischer Techniker",
+    "creative": -2.9,
+    "social": -3
+  },
+  {
+    "category": "Gesundheitswesen",
+    "job": "Physiotherapeutin",
+    "creative": 8,
+    "social": 8.5
+  },
+  {
+    "category": "Gesundheitswesen",
+    "job": "Podologe",
+    "creative": 7.5,
+    "social": 7.5
+  },
+  {
+    "category": "Manager",
+    "job": "PR-Direktor",
+    "creative": 5,
+    "social": 4
+  },
+  {
+    "category": "Bildung",
+    "job": "Primarstufenleitung",
+    "creative": 4.8,
+    "social": 9
+  },
+  {
+    "category": "Kunst",
+    "job": "Produkt- oder Bekleidungsdesigner",
+    "creative": 4.1,
+    "social": 6.5
+  },
+  {
+    "category": "Manager",
+    "job": "Produktionsleiter",
+    "creative": 6.5,
+    "social": 8
+  },
+  {
+    "category": "Ingenieur",
+    "job": "Programmierer",
+    "creative": 4.9,
+    "social": 0.5
+  },
+  {
+    "category": "Bildung",
+    "job": "Psychiater",
+    "creative": 6,
+    "social": 5
+  },
+  {
+    "category": "Gesundheitswesen",
+    "job": "Psychologe",
+    "creative": 8.5,
+    "social": 9
+  },
+  {
+    "category": "Gesundheitswesen",
+    "job": "Radiologe",
+    "creative": -5,
+    "social": -3
+  },
+  {
+    "category": "Dienstleistung",
+    "job": "Raumfahrtmechaniker",
+    "creative": 4,
+    "social": -8
+  },
+  {
+    "category": "Büro/Sachbearbeiter",
+    "job": "Rechts-/Finanzanalyst",
+    "creative": 5,
+    "social": -7
+  },
+  {
+    "category": "Experte",
+    "job": "Rechtsanwalt",
+    "creative": 8,
+    "social": 8.5
+  },
+  {
+    "category": "Unterhaltung",
+    "job": "Regisseur / Produzent / Drehbuch",
+    "creative": 5.9,
+    "social": 9
+  },
+  {
+    "category": "Physisch",
+    "job": "Reinigungskraft oder Hausangestellte",
+    "creative": -4,
+    "social": -2.5
+  },
+  {
+    "category": "Dienstleistung",
+    "job": "Reiseassistentin",
+    "creative": 3.5,
+    "social": 8
+  },
+  {
+    "category": "Dienstleistung",
+    "job": "Reiseführer",
+    "creative": 7.5,
+    "social": 9
+  },
+  {
+    "category": "Dienstleistung",
+    "job": "Restaurantkoch",
+    "creative": -7,
+    "social": -5
+  },
+  {
+    "category": "Gesundheitswesen",
+    "job": "Rettungssanitäter",
+    "creative": 7,
+    "social": 9
+  },
+  {
+    "category": "Regierung",
+    "job": "Richter",
+    "creative": 8,
+    "social": 9
+  },
+  {
+    "category": "Experte",
+    "job": "Risikokapitalgeber",
+    "creative": 9,
+    "social": 9
+  },
+  {
+    "category": "Physisch",
+    "job": "Rohrleitungsmonteur",
+    "creative": 1.5,
+    "social": -2.5
+  },
+  {
+    "category": "Kunst",
+    "job": "Sachbuchautor",
+    "creative": 8,
+    "social": -3
+  },
+  {
+    "category": "Dienstleistung",
+    "job": "Schaufensterdekorateur",
+    "creative": 7.5,
+    "social": 3.5
+  },
+  {
+    "category": "Unterhaltung",
+    "job": "Schauspieler",
+    "creative": 9,
+    "social": 10
+  },
+  {
+    "category": "Dienstleistung",
+    "job": "Schneider nach Maß",
+    "creative": 7.5,
+    "social": 8
+  },
+  {
+    "category": "Dienstleistung",
+    "job": "Schönheitsberaterin",
+    "creative": 6.5,
+    "social": 8.5
+  },
+  {
+    "category": "Physisch",
+    "job": "Schutzdienstleister",
+    "creative": 4,
+    "social": 8.5
+  },
+  {
+    "category": "Forschung",
+    "job": "Sozial- und Geisteswissenschaftler",
+    "creative": 8.5,
+    "social": 8
+  },
+  {
+    "category": "Dienstleistung",
+    "job": "Sozialarbeiter",
+    "creative": 7.25,
+    "social": 9.25
+  },
+  {
+    "category": "Unterhaltung",
+    "job": "Sportlicher Spieler",
+    "creative": 7,
+    "social": 9
+  },
+  {
+    "category": "Unterhaltung",
+    "job": "Sporttrainer",
+    "creative": 8,
+    "social": 9
+  },
+  {
+    "category": "Regierung",
+    "job": "Städtischer Planer",
+    "creative": 5.5,
+    "social": 8.5
+  },
+  {
+    "category": "Experte",
+    "job": "Statistiker",
+    "creative": 6,
+    "social": -2
+  },
+  {
+    "category": "Legal",
+    "job": "Strafverteidiger",
+    "creative": 9,
+    "social": 8
+  },
+  {
+    "category": "Unterhaltung",
+    "job": "Tänzer oder Choreograph",
+    "creative": 9,
+    "social": 9
+  },
+  {
+    "category": "Dienstleistung",
+    "job": "Taxifahrer",
+    "creative": 4,
+    "social": -4
+  },
+  {
+    "category": "Techniker",
+    "job": "Techniker für IT-Benutzerunterstützung",
+    "creative": 0.6,
+    "social": 4
+  },
+  {
+    "category": "Techniker",
+    "job": "Techniker für Qualitätssicherung",
+    "creative": 1.5,
+    "social": 1.5
+  },
+  {
+    "category": "Techniker",
+    "job": "Techniker für Wissenschaft",
+    "creative": 2,
+    "social": 1.5
+  },
+  {
+    "category": "Techniker",
+    "job": "Techniker im Hoch- und Tiefbau",
+    "creative": 2,
+    "social": 1.5
+  },
+  {
+    "category": "Ingenieur",
+    "job": "Technische Informatik-Entwickler",
+    "creative": 4.9,
+    "social": 0.5
+  },
+  {
+    "category": "Sales",
+    "job": "Telefonverkäufer",
+    "creative": -7,
+    "social": -9
+  },
+  {
+    "category": "Ingenieur",
+    "job": "Telekommunikationstechniker",
+    "creative": 4.5,
+    "social": 3
+  },
+  {
+    "category": "Dienstleistung",
+    "job": "Tellerwäscher",
+    "creative": -9,
+    "social": -9
+  },
+  {
+    "category": "Dienstleistung",
+    "job": "Textilfabrikmitarbeiter",
+    "creative": -6,
+    "social": -8
+  },
+  {
+    "category": "Gesundheitswesen",
+    "job": "Tierarzt",
+    "creative": 3.6,
+    "social": 8
+  },
+  {
+    "category": "Gesundheitswesen",
+    "job": "Tierarzthelferin",
+    "creative": 4.2,
+    "social": 7.5
+  },
+  {
+    "category": "Experte",
+    "job": "Unternehmensberater",
+    "creative": 7.5,
+    "social": 8.5
+  },
+  {
+    "category": "Manager",
+    "job": "Unternehmer",
+    "creative": 8,
+    "social": 9
+  },
+  {
+    "category": "Regierung",
+    "job": "Unterstützungsbeamter der Polizei",
+    "creative": 3.5,
+    "social": 8.5
+  },
+  {
+    "category": "Büro/Sachbearbeiter",
+    "job": "Versicherer von Verkaufsgesprächen",
+    "creative": -8,
+    "social": -8
+  },
+  {
+    "category": "Experte",
+    "job": "Versicherungsmathematiker oder Statistiker",
+    "creative": 3.5,
+    "social": -3
+  },
+  {
+    "category": "Büro/Sachbearbeiter",
+    "job": "Versicherungssachverständiger",
+    "creative": -5,
+    "social": -7
+  },
+  {
+    "category": "Büro/Sachbearbeiter",
+    "job": "Verwaltungsangestellte für Humanressourcen",
+    "creative": -1.9,
+    "social": 7.5
+  },
+  {
+    "category": "Ingenieur",
+    "job": "Video- und Tontechniker",
+    "creative": 6.5,
+    "social": -2.5
+  },
+  {
+    "category": "Physisch",
+    "job": "Weberin und Strickerin",
+    "creative": 2,
+    "social": -7
+  },
+  {
+    "category": "Dienstleistung",
+    "job": "Hochzeitsplanerin",
+    "creative": 7.5,
+    "social": 9.5
+  },
+  {
+    "category": "Ingenieur",
+    "job": "Wirtschaftsingenieur",
+    "creative": 1.9,
+    "social": 4
+  },
+  {
+    "category": "Techniker",
+    "job": "Wissenschaft & Produktionstechniker",
+    "creative": 2,
+    "social": 1.5
+  },
+  {
+    "category": "Gesundheitswesen",
+    "job": "Wissenschaftler",
+    "creative": 7,
+    "social": -7
+  },
+  {
+    "category": "Dienstleistung",
+    "job": "Wohnungsamt",
+    "creative": 1.9,
+    "social": 8
+  },
+  {
+    "category": "Dienstleistung",
+    "job": "Wohnungsbauarbeiter/Feinarbeiter",
+    "creative": 5,
+    "social": -6
+  },
+  {
+    "category": "Gesundheitswesen",
+    "job": "Zahnarzt",
+    "creative": 6.5,
+    "social": 8
+  },
+  {
+    "category": "Gesundheitswesen",
+    "job": "Zahnarzthelferin",
+    "creative": -1,
+    "social": 7.5
+  }
+]
