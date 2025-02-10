@@ -23,6 +23,7 @@ shadowRoot.innerHTML = `
         * {
             font-family: Arial, sans-serif;
             max-width:100%;
+            color: #000000;
             background-color:#ffffff;
         }
         #filterContainer {
