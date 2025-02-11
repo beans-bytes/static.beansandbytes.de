@@ -62,10 +62,14 @@ shadowRoot.innerHTML = `
         #main{
             padding:1em;
             border: 3px solid black;
+            width: 100%;
+            display: block;
+            box-sizing: border-box;
+            overflow: hidden;
         }
     </style>
     <div id="main">
-    <div style="height: 800px; width: 800px;">
+    <div style="max-height: 800px; max-width: 800px;">
         <canvas id="myChart" width="800" height="800"></canvas>
     </div>
     <div id="filterContainer"></div>
