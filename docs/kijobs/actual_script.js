@@ -142,7 +142,7 @@ const addLabelsAndBackground = () => {
     ctx.stroke();
 
     ctx.font = '14px Arial';
-    if (width <= 100){
+    if (width <= 500){
             ctx.font = '10px Arial';
     }
     ctx.textAlign = 'center';
@@ -169,7 +169,7 @@ const addLabelsAndBackground = () => {
     ctx.restore();
 
     ctx.font = '24px Arial';
-    if (width <= 100){
+    if (width <= 500){
             ctx.font = '15px Arial';
     }
     ctx.textAlign = 'center';
