@@ -159,16 +159,15 @@ const addLabelsAndBackground = () => {
     ctx.lineTo(width, height / 2);
     ctx.stroke();
 
+    if (width > 500) {
+        var background = new Image;
+        // Make sure the image is loaded first otherwise nothing will draw.
+        background.onload = function () {
+            ctx.drawImage(background, width / 2 - 61, height / 2 - 30, 123, 60);
 
-    var background = new Image;
-
-    // Make sure the image is loaded first otherwise nothing will draw.
-    background.onload = function(){
-        ctx.drawImage(background,width/2-61,height/2-30,123,60);
-
+        }
+        background.src = "https://static.beansandbytes.de/kijobs/logo.png";
     }
-    background.src = "https://static.beansandbytes.de/kijobs/logo.png";
-
 
     ctx.font = '14px Arial';
     if (width <= 500){
