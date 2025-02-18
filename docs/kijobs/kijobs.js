@@ -69,6 +69,9 @@ shadowRoot.innerHTML = `
         }
     </style>
     <div id="main">
+    <div style="text-align: right">
+        <button id="downloadChart">Grafik runterlanden (PNG)</button>
+    </div>
     <div style="max-height: 800px; max-width: 800px;">
         <canvas id="myChart" width="800" height="800"></canvas>
     </div>

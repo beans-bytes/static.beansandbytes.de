@@ -126,6 +126,24 @@ const chart = new Chart(ctx, {
     }
 });
 
+
+
+function downloadURI(uri, name) {
+    var link = document.createElement("a");
+    link.download = name;
+    link.href = uri;
+    shadowRoot.appendChild(link);
+    link.click();
+    shadowRoot.removeChild(link);
+    delete link;
+}
+
+async function downloadPNG(){
+    downloadURI(canvas.toDataURL(),"ki_job_diagram.png");
+}
+
+shadowRoot.getElementById("downloadChart").onclick=downloadPNG
+
 const addLabelsAndBackground = () => {
     const width = canvas.clientWidth;
     const height = canvas.clientHeight;
