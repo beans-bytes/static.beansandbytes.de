@@ -280,7 +280,7 @@ function updateTable() {
         const likelihood = calculateLikelihood(point);
         const row = `
             <tr>
-                <td><a href="https://static.beansandbytes.de/kijobs/jobs/${point.job.replace(/\s+/g, '_')}.html">${point.job}</a></td>
+                <td><a href="https://static.beansandbytes.de/kijobs/jobs/${point.job.replace(/\s+/g, '_')}.html" target="_blank">${point.job}</a></td>
                 <td>${likelihood}</td>
                 <td>${quarter(point)}</td>
             </tr>
