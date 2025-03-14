@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Einfluss von KI auf den Beruf der/des {{ jobEnglish }}. Wird KI meinen Job ersetzen?</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/github-markdown.css">
+<style>
+	.markdown-body {
+		box-sizing: border-box;
+		min-width: 200px;
+		max-width: 980px;
+		margin: 0 auto;
+		padding: 45px;
+	}
+	@media (max-width: 767px) {
+		.markdown-body {
+			padding: 15px;
+		}
+	}
+</style>
+</head>
+<body>
+
+<article class="markdown-body">
+    <a href="../">Back to the overview over all jobs</a>
+    <h3>Will AI replace the job of a {{ job }}?</h3>
+    <h1>How does AI influence the work of {{ job }}?</h1>
+
+    <script src="https://static.beansandbytes.de/kijobs/kijobs.js" data-jobs="{{ job }}"></script>
+    <hr>
+    <h2>How social is the work of {{ job }}? <b>{{ social }}</b> <small>(Scale: -10 to +10)</small></h2>
+    {{ socialReasoningEnglish }}
+
+    <hr>
+    <h2>How creative is the job of a {{ job }}? <b>{{ creative }}</b> <small>(Scale: -10 to +10)</small></h2>
+    {{ creativityReasoningEnglish }}
+
+    <hr>
+    <small><a href="./{{ jobKey }}.html">Deutsche Version (Werden {{ job }} von KI ersetzt?</a></small>
+
+</article>
+</body>
+</html>
