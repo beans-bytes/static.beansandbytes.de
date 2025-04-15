@@ -220,7 +220,7 @@ function populateCategoryFilter() {
         label.innerHTML = `
             <label class="filter-label">
                 <input type="checkbox" value="${category}" checked onchange="filterList()">
-                <span class="checkbox-custom"></span>
+                <span class="checkbox-custom" style="background-color: ${generateStableColor(category)}"></span>
                 ${category}
             </label>
         `;

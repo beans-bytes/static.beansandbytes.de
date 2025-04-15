@@ -102,8 +102,8 @@ shadowRoot.innerHTML = `
             left: 50%;
             width: 0;
             height: 0;
-            background-color: #4CAF50; /* Green color when checked */
-            border-radius: 2px;
+            background-color: inherit;
+            border-radius: 50%;
             transform: translate(-50%, -50%) scale(0);
             transition: all 0.2s ease;
         }
