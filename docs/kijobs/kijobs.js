@@ -142,7 +142,7 @@ shadowRoot.innerHTML = `
             background-color: #f5f5f5;
         }
 
-        #dataBody a {
+        a {
             color: black;
             text-decoration: none;
         }
@@ -180,7 +180,7 @@ shadowRoot.innerHTML = `
         </thead>
         <tbody id="dataBody"></tbody>
     </table>
-    <div id="sources">Interaktive Grafik zum "AI Job Displacement Index" von Dr. Kai-Fu Lee.<br>Basierend auf Daten der <b>Oxford University</b>, <b>McKinsey</b>, <b>Bain & Co</b>, <b>PWC</b> und <b>Sinovation Ventures</b></div>
+    <div id="sources">Interaktive Grafik zu <b>Dr. Kai-Fu Lee: "AI Job Displacement Index"</b> erstellt von <a href="https://beansandbytes.de" target="_blank">beansandbytes</a>.<br>Basierend auf Daten der <b>Oxford University</b>, <b>McKinsey</b>, <b>Bain & Co</b>, <b>PWC</b> und <b>Sinovation Ventures</b></div>
     </div>
     <div id="embedInstruct">Sie können diese Visualisierung auf Ihrer eigenen Website einbinden. Kopieren sie einfach diesen Code:<br><code>&lt;script src="${me.src}"${specialEmbedInstruct} &gt;&lt;/script&gt;</code></div>
 `;
