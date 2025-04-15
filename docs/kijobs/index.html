@@ -1,123 +1,621 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 <head>
+    <meta charset="UTF-8">
     <title>Job Coordinate System</title>
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              tableauBlue: '#4E79A7',
+              tableauOrange: '#F28E2B',
+              tableauGreen: '#59A14F',
+              tableauRed: '#E15759',
+              tableauPurple: '#B07AA1',
+              tableauBrown: '#9C755F',
+              tableauGray: '#BAB0AC'
+            },
+            boxShadow: {
+              'inner-lg': 'inset 0 2px 4px 0 rgb(0 0 0 / 0.05)'
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+        body{
+            font-family: "Inter", sans-serif !important;
+            font-optical-sizing: auto;
+            font-style: normal;
+        }
+    </style>
 </head>
-<body>
-    <script src="https://static.beansandbytes.de/kijobs/kijobs.js"></script>
-    <script defer="" data-domain="static.beansandbytes.de" src="https://single.uber.space/js/script.js"></script>
+<body class="bg-slate-50 min-h-screen font-sans">
 
-    <h2>Tiefergehende Informationen zu den verschiedenen Jobs, die durch KI ersetzt werden</h2>
-    <ul>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Unternehmer.html" target="_blank">Unternehmer</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/KI-Wissenschaftler.html" target="_blank">KI-Wissenschaftler</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Psychologe.html" target="_blank">Psychologe</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Geistliches_Mitglied.html" target="_blank">Geistliches Mitglied</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/CEO.html" target="_blank">CEO</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/GMO.html" target="_blank">GMO</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Lehrer_für_Sonderpädagogik.html" target="_blank">Lehrer für Sonderpädagogik</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Lehrkraft_für_den_Sekundarbereich.html" target="_blank">Lehrkraft für den Sekundarbereich</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Lehrkräfte_und_pädagogische_Fachkräfte.html" target="_blank">Lehrkräfte und pädagogische Fachkräfte</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/CTO.html" target="_blank">CTO</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/CFO.html" target="_blank">CFO</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Anwalt_für_Strafverteidigung.html" target="_blank">Anwalt für Strafverteidigung</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Medizinerin.html" target="_blank">Medizinerin</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/M&amp;A-Experte.html" target="_blank">M&amp;A-Experte</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Hebamme.html" target="_blank">Hebamme</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Sozialarbeiter.html" target="_blank">Sozialarbeiter</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Krankenschwester.html" target="_blank">Krankenschwester</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Physiotherapeutin.html" target="_blank">Physiotherapeutin</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Schneider_nach_Maß.html" target="_blank">Schneider nach Maß</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Bauingenieur.html" target="_blank">Bauingenieur</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Geprüfter_Architekturtechnologe.html" target="_blank">Geprüfter Architekturtechnologe</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Logopädin_und_Sprachtherapeutin.html" target="_blank">Logopädin und Sprachtherapeutin</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Bewährungshelfer.html" target="_blank">Bewährungshelfer</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Zahnarzt.html" target="_blank">Zahnarzt</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Kinderarzt/Gynäkologe.html" target="_blank">Kinderarzt/Gynäkologe</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Hochschullehrer.html" target="_blank">Hochschullehrer</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Architekt.html" target="_blank">Architekt</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Direktor_für_IT_und_Telekommunikation.html" target="_blank">Direktor für IT und Telekommunikation</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Podologe.html" target="_blank">Podologe</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Gesundheitsfachkraft.html" target="_blank">Gesundheitsfachkraft</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Chefkoch_eines_Spitzenrestaurants.html" target="_blank">Chefkoch eines Spitzenrestaurants</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Richter.html" target="_blank">Richter</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Konstruktions-_und_Entwicklungsingenieur.html" target="_blank">Konstruktions- und Entwicklungsingenieur</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Regisseur_/_Produzent_/_Drehbuch.html" target="_blank">Regisseur / Produzent / Drehbuch</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Tierarzt.html" target="_blank">Tierarzt</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Biowissenschaftler_oder_Biochemiker.html" target="_blank">Biowissenschaftler oder Biochemiker</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Berufs-_und_Industrieausbilder.html" target="_blank">Berufs- und Industrieausbilder</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Chemikerin.html" target="_blank">Chemikerin</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Analyst_für_Informationssicherheit.html" target="_blank">Analyst für Informationssicherheit</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Lehrkraft_für_den_Primar-_und_Kindergartenbereich.html" target="_blank">Lehrkraft für den Primar- und Kindergartenbereich</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Ingenieure_für_Telekommunikation.html" target="_blank">Ingenieure für Telekommunikation</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Tänzer_oder_Choreograph.html" target="_blank">Tänzer oder Choreograph</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Unternehmensberater.html" target="_blank">Unternehmensberater</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Sportlicher_Spieler.html" target="_blank">Sportlicher Spieler</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Natur-_und_sozialwissenschaftliche_Fachkräfte.html" target="_blank">Natur- und sozialwissenschaftliche Fachkräfte</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Sozial-_und_Geisteswissenschaftler.html" target="_blank">Sozial- und Geisteswissenschaftler</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Hochwertiges_Reisebüro.html" target="_blank">Hochwertiges Reisebüro</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Rechtsanwalt.html" target="_blank">Rechtsanwalt</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Masseurin/Chiropraktikerin.html" target="_blank">Masseurin/Chiropraktikerin</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Rettungssanitäter.html" target="_blank">Rettungssanitäter</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Kinderbetreuer.html" target="_blank">Kinderbetreuer</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Musikerin.html" target="_blank">Musikerin</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Naturwissenschaftler.html" target="_blank">Naturwissenschaftler</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Schönheitsberaterin.html" target="_blank">Schönheitsberaterin</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Jugend-_und_Sozialarbeiter.html" target="_blank">Jugend- und Sozialarbeiter</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Elektroingenieur.html" target="_blank">Elektroingenieur</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Beauftragter_für_Kinder_und_frühkindliche_Bildung.html" target="_blank">Beauftragter für Kinder und frühkindliche Bildung</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Techniker_für_IT-Benutzerunterstützung.html" target="_blank">Techniker für IT-Benutzerunterstützung</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Assistentin_des_CEO.html" target="_blank">Assistentin des CEO</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Chefkonditor_der_gehobenen_Klasse.html" target="_blank">Chefkonditor der gehobenen Klasse</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Kellner_oder_Kellnerin_in_einem_gehobenen_Restaurant.html" target="_blank">Kellner oder Kellnerin in einem gehobenen Restaurant</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Ingenieur_für_Qualitätskontrolle_und_Planung.html" target="_blank">Ingenieur für Qualitätskontrolle und Planung</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Berufsberaterin_und_Fachkraft_für_Berufsberatung.html" target="_blank">Berufsberaterin und Fachkraft für Berufsberatung</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Maschinenbauingenieur.html" target="_blank">Maschinenbauingenieur</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Wohnungsamt.html" target="_blank">Wohnungsamt</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Lehrkraft_in_der_Weiterbildung.html" target="_blank">Lehrkraft in der Weiterbildung</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Risikokapitalgeber.html" target="_blank">Risikokapitalgeber</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Datenwissenschaftler.html" target="_blank">Datenwissenschaftler</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Kellner_oder_Kellnerin_in_einem_gehobenen_Restaurant.html" target="_blank">Kellner oder Kellnerin in einem gehobenen Restaurant</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Haushälterin.html" target="_blank">Haushälterin</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Fluglotse.html" target="_blank">Fluglotse</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Versicherungsmathematiker_oder_Statistiker.html" target="_blank">Versicherungsmathematiker oder Statistiker</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/IT-_und_Telekommunikationsfachleute.html" target="_blank">IT- und Telekommunikationsfachleute</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Augenoptiker.html" target="_blank">Augenoptiker</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Kosmetikerin_/_Maniküre.html" target="_blank">Kosmetikerin / Maniküre</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Wirtschaftsingenieur.html" target="_blank">Wirtschaftsingenieur</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Friseur_oder_Barbier.html" target="_blank">Friseur oder Barbier</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Apotheker.html" target="_blank">Apotheker</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Unterstützungsbeamter_der_Polizei.html" target="_blank">Unterstützungsbeamter der Polizei</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Ingenieur_für_Klimatisierung_und_Kältetechnik.html" target="_blank">Ingenieur für Klimatisierung und Kältetechnik</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Reiseführer.html" target="_blank">Reiseführer</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Hersteller_und_Reparateur_von_Präzisionsinstrumenten.html" target="_blank">Hersteller und Reparateur von Präzisionsinstrumenten</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Radiologe.html" target="_blank">Radiologe</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Tierarzthelferin.html" target="_blank">Tierarzthelferin</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Arbeiter_auf_der_Baustelle_(Finish).html" target="_blank">Arbeiter auf der Baustelle (Finish)</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Luftfahrzeugwartung_und_verwandte_Berufe.html" target="_blank">Luftfahrzeugwartung und verwandte Berufe</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Krankenhauspförtner.html" target="_blank">Krankenhauspförtner</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Luftfahrzeugpilot_oder_Flugingenieur.html" target="_blank">Luftfahrzeugpilot oder Flugingenieur</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Statistiker.html" target="_blank">Statistiker</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Pflegekraft_und_Hauspflegerin.html" target="_blank">Pflegekraft und Hauspflegerin</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Reinigungskraft_oder_Hausangestellte.html" target="_blank">Reinigungskraft oder Hausangestellte</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Beauftragter_für_Sicherheit_und_Gesundheitsschutz.html" target="_blank">Beauftragter für Sicherheit und Gesundheitsschutz</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Techniker_für_Qualitätssicherung.html" target="_blank">Techniker für Qualitätssicherung</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Krankenpflegehelfer_und_-assistenten.html" target="_blank">Krankenpflegehelfer und -assistenten</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Zahnarzthelferin.html" target="_blank">Zahnarzthelferin</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Rohrleitungsmonteur.html" target="_blank">Rohrleitungsmonteur</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Reiseassistentin.html" target="_blank">Reiseassistentin</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Hoch-_und_Tiefbautechniker.html" target="_blank">Hoch- und Tiefbautechniker</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Schaufensterdekorateur.html" target="_blank">Schaufensterdekorateur</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Geprüfter_Sachverständiger.html" target="_blank">Geprüfter Sachverständiger</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Gärtner.html" target="_blank">Gärtner</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Weberin_und_Strickerin.html" target="_blank">Weberin und Strickerin</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Bauarbeiter_(allgemein).html" target="_blank">Bauarbeiter (allgemein)</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Kreditprüfer.html" target="_blank">Kreditprüfer</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Laborant.html" target="_blank">Laborant</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Arbeiter_für_industrielle_Reinigungsverfahren.html" target="_blank">Arbeiter für industrielle Reinigungsverfahren</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Verwaltungsangestellte_für_Humanressourcen.html" target="_blank">Verwaltungsangestellte für Humanressourcen</a></li>
-        <li><a href="https://static.beansandbytes.de/kijobs/jobs/Pharmazeutischer_Techniker.html" target="_blank">Pharmazeutischer Techniker</a></li>
-        </ul>
+    <nav class="bg-white border-b border-tableauGray/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+            <div class="flex justify-between items-center">
+                <a class="text-black text-sm  font-semibold block" href="https://beansandbytes.de/" target="_blank"><img src="img/logo.svg" class="inline h-8"></a>
+                <a class="flex space-x-2 block" href="/kijobs">
+                    <div class="h-2 w-2 rounded-full bg-tableauBlue"></div>
+                    <div class="h-2 w-2 rounded-full bg-tableauOrange"></div>
+                    <div class="h-2 w-2 rounded-full bg-tableauGreen"></div>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="max-w-4xl mx-auto mt-16 px-4 sm:px-6 lg:px-8">
+        <header class="mb-12 text-center max-w-2xl mx-auto">
+            <h1 class="text-4xl font-bold text-tableauBlue mb-4 tracking-tight">Einfluss von Künstlicher Intelligenz auf verschiedenen Berufe</h1>
+            <p class="text-slate-600 text-xl">Interaktive Grafik zum "AI Job Displacement Index" von Dr. Kai-Fu Lee. Basierend auf Daten der <b>Oxford University</b>, <b>McKinsey</b>, <b>Bain & Co</b>, <b>PWC</b> und <b>Sinovation Ventures</b></p>
+            <div class="flex justify-center md:justify-between opacity-70 mt-8 gap-4 flex-wrap">
+                <img src="img/logos/bainandcompany.png" class="h-8">
+                <img src="img/logos/pwc.png" class="h-8">
+                <img src="img/logos/mckinsey.png" class="h-8">
+                <img src="img/logos/oxford.jpg" class="h-8">
+                <img src="img/logos/sinovation.png" class="h-8">
+            </header>
+
+
+        <main class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8">
+            <script src="/kijobs/kijobs.js"></script>
+            
+            <h2 class="text-slate-600 text-xl mt-8">Informationen zu den einzelnen Berufen</h2>
+            <div class="grid gap-4 mt-4 md:grid-cols-2">
+                <a href="/kijobs/jobs/KI-Wissenschaftler.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">KI-Wissenschaftler</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Psychologe.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Psychologe</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Geistliches_Mitglied.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Geistliches Mitglied</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/CEO.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">CEO</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/GMO.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">GMO</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Lehrer_für_Sonderpädagogik.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Lehrer für Sonderpädagogik</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Lehrkraft_für_den_Sekundarbereich.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Lehrkraft für den Sekundarbereich</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Lehrkräfte_und_pädagogische_Fachkräfte.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Lehrkräfte und pädagogische Fachkräfte</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/CTO.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">CTO</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/CFO.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">CFO</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Anwalt_für_Strafverteidigung.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Anwalt für Strafverteidigung</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Medizinerin.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Medizinerin</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/M&amp;A-Experte.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">M&amp;A-Experte</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Hebamme.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Hebamme</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Sozialarbeiter.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Sozialarbeiter</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Krankenschwester.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Krankenschwester</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Physiotherapeutin.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Physiotherapeutin</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Schneider_nach_Maß.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Schneider nach Maß</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Bauingenieur.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Bauingenieur</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Geprüfter_Architekturtechnologe.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Geprüfter Architekturtechnologe</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Logopädin_und_Sprachtherapeutin.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Logopädin und Sprachtherapeutin</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Bewährungshelfer.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Bewährungshelfer</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Zahnarzt.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Zahnarzt</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Kinderarzt/Gynäkologe.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Kinderarzt/Gynäkologe</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Hochschullehrer.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Hochschullehrer</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Architekt.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Architekt</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Direktor_für_IT_und_Telekommunikation.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Direktor für IT und Telekommunikation</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Podologe.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Podologe</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Gesundheitsfachkraft.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Gesundheitsfachkraft</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Chefkoch_eines_Spitzenrestaurants.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Chefkoch eines Spitzenrestaurants</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Richter.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Richter</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Konstruktions-_und_Entwicklungsingenieur.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Konstruktions- und Entwicklungsingenieur</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Regisseur_/_Produzent_/_Drehbuch.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Regisseur / Produzent / Drehbuch</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Tierarzt.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Tierarzt</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Biowissenschaftler_oder_Biochemiker.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Biowissenschaftler oder Biochemiker</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Berufs-_und_Industrieausbilder.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Berufs- und Industrieausbilder</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Chemikerin.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Chemikerin</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Analyst_für_Informationssicherheit.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Analyst für Informationssicherheit</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Lehrkraft_für_den_Primar-_und_Kindergartenbereich.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Lehrkraft für den Primar- und Kindergartenbereich</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Ingenieure_für_Telekommunikation.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Ingenieure für Telekommunikation</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Tänzer_oder_Choreograph.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Tänzer oder Choreograph</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Unternehmensberater.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Unternehmensberater</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Sportlicher_Spieler.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Sportlicher Spieler</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Natur-_und_sozialwissenschaftliche_Fachkräfte.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Natur- und sozialwissenschaftliche Fachkräfte</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Sozial-_und_Geisteswissenschaftler.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Sozial- und Geisteswissenschaftler</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Hochwertiges_Reisebüro.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Hochwertiges Reisebüro</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Rechtsanwalt.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Rechtsanwalt</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Masseurin/Chiropraktikerin.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Masseurin/Chiropraktikerin</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Rettungssanitäter.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Rettungssanitäter</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Kinderbetreuer.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Kinderbetreuer</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Musikerin.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Musikerin</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Naturwissenschaftler.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Naturwissenschaftler</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Schönheitsberaterin.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Schönheitsberaterin</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Jugend-_und_Sozialarbeiter.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Jugend- und Sozialarbeiter</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Elektroingenieur.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Elektroingenieur</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Beauftragter_für_Kinder_und_frühkindliche_Bildung.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Beauftragter für Kinder und frühkindliche Bildung</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Techniker_für_IT-Benutzerunterstützung.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Techniker für IT-Benutzerunterstützung</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Assistentin_des_CEO.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Assistentin des CEO</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Chefkonditor_der_gehobenen_Klasse.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Chefkonditor der gehobenen Klasse</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Kellner_oder_Kellnerin_in_einem_gehobenen_Restaurant.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Kellner oder Kellnerin in einem gehobenen Restaurant</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Ingenieur_für_Qualitätskontrolle_und_Planung.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Ingenieur für Qualitätskontrolle und Planung</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Berufsberaterin_und_Fachkraft_für_Berufsberatung.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Berufsberaterin und Fachkraft für Berufsberatung</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Maschinenbauingenieur.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Maschinenbauingenieur</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Wohnungsamt.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Wohnungsamt</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Lehrkraft_in_der_Weiterbildung.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Lehrkraft in der Weiterbildung</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Risikokapitalgeber.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Risikokapitalgeber</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Datenwissenschaftler.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Datenwissenschaftler</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Kellner_oder_Kellnerin_in_einem_gehobenen_Restaurant.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Kellner oder Kellnerin in einem gehobenen Restaurant</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Haushälterin.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Haushälterin</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Fluglotse.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Fluglotse</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Versicherungsmathematiker_oder_Statistiker.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Versicherungsmathematiker oder Statistiker</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/IT-_und_Telekommunikationsfachleute.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">IT- und Telekommunikationsfachleute</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Augenoptiker.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Augenoptiker</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Kosmetikerin_/_Maniküre.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Kosmetikerin / Maniküre</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Wirtschaftsingenieur.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Wirtschaftsingenieur</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Friseur_oder_Barbier.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Friseur oder Barbier</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Apotheker.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Apotheker</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Unterstützungsbeamter_der_Polizei.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Unterstützungsbeamter der Polizei</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Ingenieur_für_Klimatisierung_und_Kältetechnik.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Ingenieur für Klimatisierung und Kältetechnik</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Reiseführer.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Reiseführer</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Hersteller_und_Reparateur_von_Präzisionsinstrumenten.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Hersteller und Reparateur von Präzisionsinstrumenten</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Radiologe.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Radiologe</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Tierarzthelferin.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Tierarzthelferin</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Arbeiter_auf_der_Baustelle_(Finish).html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Arbeiter auf der Baustelle (Finish)</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Luftfahrzeugwartung_und_verwandte_Berufe.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Luftfahrzeugwartung und verwandte Berufe</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Krankenhauspförtner.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Krankenhauspförtner</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Luftfahrzeugpilot_oder_Flugingenieur.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Luftfahrzeugpilot oder Flugingenieur</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Statistiker.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Statistiker</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Pflegekraft_und_Hauspflegerin.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Pflegekraft und Hauspflegerin</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Reinigungskraft_oder_Hausangestellte.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Reinigungskraft oder Hausangestellte</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Beauftragter_für_Sicherheit_und_Gesundheitsschutz.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Beauftragter für Sicherheit und Gesundheitsschutz</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Techniker_für_Qualitätssicherung.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Techniker für Qualitätssicherung</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Krankenpflegehelfer_und_-assistenten.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Krankenpflegehelfer und -assistenten</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Zahnarzthelferin.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Zahnarzthelferin</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Rohrleitungsmonteur.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Rohrleitungsmonteur</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Reiseassistentin.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Reiseassistentin</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Hoch-_und_Tiefbautechniker.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Hoch- und Tiefbautechniker</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Schaufensterdekorateur.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Schaufensterdekorateur</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Geprüfter_Sachverständiger.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Geprüfter Sachverständiger</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Gärtner.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Gärtner</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Weberin_und_Strickerin.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Weberin und Strickerin</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Bauarbeiter_(allgemein).html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Bauarbeiter (allgemein)</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Kreditprüfer.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Kreditprüfer</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Laborant.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Laborant</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Arbeiter_für_industrielle_Reinigungsverfahren.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Arbeiter für industrielle Reinigungsverfahren</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Verwaltungsangestellte_für_Humanressourcen.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Verwaltungsangestellte für Humanressourcen</h3>
+                    </div>
+                </a>
+        <a href="/kijobs/jobs/Pharmazeutischer_Techniker.html" class="group">
+                    <div class=" hover:border-tableauBlue transition-all duration-200 hover:shadow-md bg-white">
+                        <h3 class="text-xl font-semibold text-tableauBlue mb-2 group-hover:text-tableauBlue/80">Pharmazeutischer Techniker</h3>
+                    </div>
+                </a>
+            </div>
+        </main>
+
+        <footer class="mt-16 mb-8 text-center">
+            <div class="text-sm text-slate-500">
+                <span><a href="https://beansandbytes.de" target="_blank">beansandbytes GmbH | KI-Beratung aus München</a></span>
+            </div>
+        </footer>
+    </div>
+
+    <script defer data-domain="static.beansandbytes.de" src="https://single.uber.space/js/script.js"></script>
+
 </body>
 </html>

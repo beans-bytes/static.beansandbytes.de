@@ -1,7 +1,3 @@
-
-
-
-
 // JavaScript code injected into the shadow DOM
 
 let originalData = [];
@@ -141,7 +137,7 @@ const addLabelsAndBackground = () => {
     ctx.lineTo(width, height / 2);
     ctx.stroke();
 
-    if (width > 500) {
+    if (false && width > 500) {
         var background = new Image;
         // Make sure the image is loaded first otherwise nothing will draw.
         background.onload = function () {
@@ -221,7 +217,13 @@ function populateCategoryFilter() {
 
     categories.forEach(category => {
         const label = document.createElement('label');
-        label.innerHTML = `<input type="checkbox" value="${category}" checked onchange="filterList()"> ${category}`;
+        label.innerHTML = `
+            <label class="filter-label">
+                <input type="checkbox" value="${category}" checked onchange="filterList()">
+                <span class="checkbox-custom"></span>
+                ${category}
+            </label>
+        `;
         container.appendChild(label);
     });
 }
@@ -282,7 +284,7 @@ function updateTable() {
             <tr>
                 <td><a href="https://static.beansandbytes.de/kijobs/jobs/${point.job.replace(/\s+/g, '_')}.html" target="_blank">${point.job}</a></td>
                 <td>${likelihood}</td>
-                <td>${quarter(point)}</td>
+                <td class="hideSmall">${quarter(point)}</td>
             </tr>
         `;
         tbody.innerHTML += row;
