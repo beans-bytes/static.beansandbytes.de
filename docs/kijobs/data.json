@@ -1402,5 +1402,41 @@
         "creativeReasoningEnglish": "Stock trading requires analytical skills and quick decision-making, but little creative thinking, as many of these tasks can be covered by standardized processes and algorithms.",
         "socialReasoningEnglish": "While stock traders may have some degree of social interaction, particularly in networking and negotiation conversations, the majority of their work is independent and can be replaced by AI-driven systems.",
         "job": "B\u00f6rsenh\u00e4ndler"
+    },
+    {
+        "category": "Physisch",
+        "creative": "2",
+        "social": "3",
+        "creativityReasoning": "Die Aufgaben eines Lagerarbeiters beinhalten haupts\u00e4chlich physische Arbeit wie Sortieren und Verpacken von Waren. Diese T\u00e4tigkeiten erfordern wenig bis keine Kreativit\u00e4t und sind leicht automatisierbar.",
+        "socialReasoning": "Obwohl Lagerarbeiter oft in Teams arbeiten und eine gewisse Kommunikation erforderlich ist, ist die soziale Interaktion in diesem Job relativ gering.",
+        "jobEnglish": "Warehouse Worker",
+        "categoryEnglish": "Physical",
+        "creativeReasoningEnglish": "The tasks of a warehouse worker mainly involve physical labor such as sorting and packing goods. These activities require little to no creativity and are easily automatable.",
+        "socialReasoningEnglish": "While warehouse workers often work in teams and some communication is necessary, the social interaction in this job is relatively low.",
+        "job": "Lagerarbeiter"
+    },
+    {
+        "category": "Techniker",
+        "creative": "7",
+        "social": "3",
+        "creativityReasoning": "Programmierer und Softwareentwickler m\u00fcssen kreativ sein, um innovative L\u00f6sungen und Anwendungen zu entwickeln. Trotz der Unterst\u00fctzung durch KI erfordert die Gestaltung und Optimierung von Software einen hohen Grad an sch\u00f6pferischem Denken.",
+        "socialReasoning": "Die Interaktion mit anderen Menschen ist in diesem Beruf begrenzt. Obwohl Teamarbeit und Zusammenarbeit notwendig sind, besteht der Gro\u00dfteil der Arbeit darin, alleine an Coding-Projekten zu arbeiten.",
+        "jobEnglish": "Programmer and Software Developer",
+        "categoryEnglish": "Technician",
+        "creativeReasoningEnglish": "Programmers and software developers need to be creative in order to develop innovative solutions and applications. Despite support from AI, designing and optimizing software requires a high level of creative thinking.",
+        "socialReasoningEnglish": "The interaction with other people in this profession is limited. Although teamwork and collaboration are necessary, the majority of the work involves working alone on coding projects.",
+        "job": "Programmierer und Softwareentwickler"
+    },
+    {
+        "category": "Dienstleistung",
+        "creative": "4",
+        "social": "2",
+        "creativityReasoning": "W\u00e4hrend ein \u00dcbersetzer einige kreative Entscheidungen treffen muss, um den Kontext und die Nuancen eines Textes richtig zu vermitteln, kann der Gro\u00dfteil der Arbeit durch KI-basierte Tools automatisiert werden, insbesondere bei einfacherem Text.",
+        "socialReasoning": "Die \u00dcbersetzungsarbeit erfordert oft wenig direkte soziale Interaktion, da der Gro\u00dfteil der Arbeit allein und in schriftlicher Form erfolgt.",
+        "jobEnglish": "Translator",
+        "categoryEnglish": "Service",
+        "creativeReasoningEnglish": "While a translator must make some creative decisions to correctly convey the context and nuances of a text, most of the work can be automated by AI-based tools, especially for simpler texts.",
+        "socialReasoningEnglish": "Translation work often requires little direct social interaction, as most of the work is done alone and in written form.",
+        "job": "\u00dcbersetzer"
     }
 ]
