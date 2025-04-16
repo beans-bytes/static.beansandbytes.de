@@ -1438,5 +1438,29 @@
         "creativeReasoningEnglish": "While a translator must make some creative decisions to correctly convey the context and nuances of a text, most of the work can be automated by AI-based tools, especially for simpler texts.",
         "socialReasoningEnglish": "Translation work often requires little direct social interaction, as most of the work is done alone and in written form.",
         "job": "\u00dcbersetzer"
+    },
+    {
+        "category": "Dienstleistung",
+        "creative": "1",
+        "social": "2",
+        "creativityReasoning": "Die T\u00e4tigkeit als Zusteller:in erfordert geringe kreative F\u00e4higkeiten, da die Hauptaufgabe das Zustellen von Paketen und Briefen ist, was durch Automatisierung relativ einfach ersetzt werden kann.",
+        "socialReasoning": "Zusteller:innen haben gelegentliche soziale Interaktionen mit den Kunden, insbesondere bei der \u00dcbergabe von Paketen oder bei Fragen zur Lieferung. Diese sozialen Interaktionen sind jedoch oft kurz und routinem\u00e4\u00dfig.",
+        "jobEnglish": "Delivery Person",
+        "categoryEnglish": "Service",
+        "creativeReasoningEnglish": "The job of a delivery person requires low creativity, as the main task is to deliver packages and letters, which can be relatively easily replaced by automation.",
+        "socialReasoningEnglish": "Delivery people have occasional social interactions with customers, particularly when handing over packages or answering delivery-related questions. However, these social interactions are often brief and routine.",
+        "job": "Zusteller:in"
+    },
+    {
+        "category": "Dienstleistung",
+        "creative": "2",
+        "social": "3",
+        "creativityReasoning": "Die Lebensmittelproduktion ist stark standardisiert und beinhaltet oft sich wiederholende Aufgaben wie Verpackung und Etikettierung, die wenig Raum f\u00fcr Kreativit\u00e4t lassen.",
+        "socialReasoning": "Auch wenn die Lebensmittelproduktion gewisse soziale Interaktionen erfordert, ist der Gro\u00dfteil der Arbeit auf die Optimierung und \u00dcberwachung von Prozessen ausgerichtet, was die sozialen Anforderungen reduziert.",
+        "jobEnglish": "Food Production",
+        "categoryEnglish": "Service Industry",
+        "creativeReasoningEnglish": "Food production is highly standardized and involves repetitive tasks such as packaging and labeling, leaving little room for creativity.",
+        "socialReasoningEnglish": "Although food production requires some social interactions, the majority of the work focuses on process optimization and monitoring, reducing the social requirements.",
+        "job": "Lebensmittelproduktion"
     }
 ]
