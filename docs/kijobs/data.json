@@ -1510,5 +1510,41 @@
         "creativeReasoningEnglish": "Many tasks in economics are analytical and data-driven, which means they require less creativity and are more routine. AI can make processes more efficient and perform predictions.",
         "socialReasoningEnglish": "The social score is relatively low because economics often involves individual analyses and data-driven models that require less interaction and social skills.",
         "job": "Wirtschaftswissenschaft"
+    },
+    {
+        "category": "Physisch",
+        "creative": -8.0,
+        "social": -7.0,
+        "creativityReasoning": "Flie\u00dfbandarbeit erfordert keine hohen kreativen F\u00e4higkeiten, da die Aufgaben meist routinem\u00e4\u00dfig und vorgegeben sind. Es geht haupts\u00e4chlich um die Wiederholung derselben Handgriffe und Prozesse.",
+        "socialReasoning": "Die Interaktion mit anderen Personen ist bei Flie\u00dfbandarbeit minimal, da die meisten T\u00e4tigkeiten individuell ausgef\u00fchrt werden und oft durch Maschinen ersetzt werden k\u00f6nnen.",
+        "jobEnglish": "Assembly line work",
+        "categoryEnglish": "Physical",
+        "creativeReasoningEnglish": "Assembly line work does not require high creative skills, as tasks are typically routine and predetermined. It mainly involves repeating the same actions and processes.",
+        "socialReasoningEnglish": "Interaction with other people is minimal in assembly line work, as most tasks are performed individually and can often be replaced by machines.",
+        "job": "Flie\u00dfbandarbeit"
+    },
+    {
+        "category": "Dienstleistung",
+        "creative": 1.0,
+        "social": 7.0,
+        "creativityReasoning": "Die Arbeit im Verkaufspersonal erfordert ein gewisses Ma\u00df an Kreativit\u00e4t, besonders wenn es darum geht, individuelle Kundenbed\u00fcrfnisse zu verstehen und ma\u00dfgeschneiderte L\u00f6sungen anzubieten. Jedoch sind viele Aufgaben standardisiert und k\u00f6nnen von KI-Tools automatisiert werden.",
+        "socialReasoning": "Verkaufspersonal ist stark von sozialer Interaktion abh\u00e4ngig, sei es im direkten Kundenkontakt, bei der Pflege von Kundenbeziehungen oder bei der Verhandlung von Gesch\u00e4ftsabschl\u00fcssen. Soziale F\u00e4higkeiten sind hier sehr wichtig und schwer komplett von KI zu ersetzen.",
+        "jobEnglish": "Sales Personnel",
+        "categoryEnglish": "Service",
+        "creativeReasoningEnglish": "The work of sales personnel requires a certain degree of creativity, especially when it comes to understanding individual customer needs and offering tailored solutions. However, many tasks are standardized and can be automated by AI tools.",
+        "socialReasoningEnglish": "Sales personnel heavily rely on social interaction, whether in direct customer contact, maintaining customer relationships, or negotiating business deals. Social skills are very important here and hard to be completely replaced by AI.",
+        "job": "Verkaufspersonal"
+    },
+    {
+        "category": "Dienstleistung",
+        "creative": -9.0,
+        "social": -7.0,
+        "creativityReasoning": "Telemarketing erfordert wenig kreative Probleml\u00f6sung oder kreative Ans\u00e4tze, da der Gro\u00dfteil der Arbeit aus vorgefertigten Skripten und standardisierten Kommunikationsmustern besteht.",
+        "socialReasoning": "Telemarketing ist eine Form von Kommunikation, jedoch oft als unpers\u00f6nlich und invasiv betrachtet. Es beinhaltet wenig soziale Interaktion im Sinne von Beziehungsaufbau oder tiefen zwischenmenschlichen Beziehungen.",
+        "jobEnglish": "Telemarketing",
+        "categoryEnglish": "Service",
+        "creativeReasoningEnglish": "Telemarketing requires little creative problem-solving or creative approaches because the majority of the work involves pre-made scripts and standardized communication patterns.",
+        "socialReasoningEnglish": "Telemarketing is a form of communication but is often considered impersonal and invasive. It involves little social interaction in terms of building relationships or deep interpersonal connections.",
+        "job": "Telemarketing"
     }
 ]
