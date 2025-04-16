@@ -1474,5 +1474,29 @@
         "creativeReasoningEnglish": "As a reporter, creativity is essential to tell interesting and engaging stories and to produce effective and captivating news segments. Although AI can assist with research and the creation of standard articles, creative design and the human perspective remain central to this profession.",
         "socialReasoningEnglish": "Reporters often have a social component in their work as they conduct interviews, meet people in unique situations, and tell their stories. This job requires social interactions, making it less susceptible to complete automation by AI.",
         "job": "Reporter/in"
+    },
+    {
+        "category": "Techniker",
+        "creative": 5.5,
+        "social": 3.0,
+        "creativityReasoning": "Die Position erfordert ein hohes Ma\u00df an Kreativit\u00e4t, da der Spezialist st\u00e4ndig neue Strategien und Inhalte entwickeln muss, um die Online-Verkaufsplattformen und die Social Media Kan\u00e4le erfolgreich zu betreiben und zu optimieren.",
+        "socialReasoning": "Obwohl der Job Interaktionen mit Kunden und dem Publikum durch Social Media beinhaltet, ist die direkte soziale Interaktion im Arbeitsalltag relativ begrenzt.",
+        "jobEnglish": "E-Commerce and Social Media Specialist",
+        "categoryEnglish": "Technician",
+        "creativeReasoningEnglish": "The position requires a high level of creativity as the specialist must continually develop new strategies and content to successfully operate and optimize the online sales platforms and social media channels.",
+        "socialReasoningEnglish": "Although the job involves interactions with customers and the audience through social media, direct social interaction in daily work is relatively limited.",
+        "job": "E-Commerce- und Social-Media-Spezialist"
+    },
+    {
+        "category": "Dienstleistung",
+        "creative": 7.5,
+        "social": 6.0,
+        "creativityReasoning": "Der Job eines Service- und L\u00f6sungsdesigners erfordert hohes Ma\u00df an Kreativit\u00e4t, um innovative Serviceprozesse und ma\u00dfgeschneiderte L\u00f6sungen zu entwickeln und zu optimieren.",
+        "socialReasoning": "Der Job beinhaltet signifikante soziale Interaktionen mit Kunden und internen Teams, um deren Anforderungen zu verstehen und erfolgreich umzusetzen.",
+        "jobEnglish": "Service and Solution Designer",
+        "categoryEnglish": "Service",
+        "creativeReasoningEnglish": "The job of a service and solution designer requires a high level of creativity to develop and optimize innovative service processes and customized solutions.",
+        "socialReasoningEnglish": "The job involves significant social interactions with clients and internal teams to understand and successfully implement their requirements.",
+        "job": "Service- und L\u00f6sungsdesigner"
     }
 ]
