@@ -1462,5 +1462,17 @@
         "creativeReasoningEnglish": "Food production is highly standardized and involves repetitive tasks such as packaging and labeling, leaving little room for creativity.",
         "socialReasoningEnglish": "Although food production requires some social interactions, the majority of the work focuses on process optimization and monitoring, reducing the social requirements.",
         "job": "Lebensmittelproduktion"
+    },
+    {
+        "category": "Unterhaltung",
+        "creative": 7.5,
+        "social": 5.0,
+        "creativityReasoning": "Als Reporter/in ist Kreativit\u00e4t erforderlich, um interessante und packende Geschichten zu erz\u00e4hlen sowie effektive und ansprechende Nachrichtenbeitr\u00e4ge zu erstellen. Obwohl KI bei der Recherche und der Erstellung von Standardartikeln helfen kann, bleibt die kreative Gestaltung und die menschliche Perspektive zentral f\u00fcr diesen Beruf.",
+        "socialReasoning": "Reporter/innen haben oft eine soziale Komponente in ihrer Arbeit, da sie Interviews f\u00fchren, Menschen in besonderen Situationen treffen und ihre Geschichten erz\u00e4hlen. Dieser Job erfordert soziale Interaktionen, was ihn weniger anf\u00e4llig f\u00fcr vollst\u00e4ndige Automatisierung durch KI macht.",
+        "jobEnglish": "Reporter",
+        "categoryEnglish": "Entertainment",
+        "creativeReasoningEnglish": "As a reporter, creativity is essential to tell interesting and engaging stories and to produce effective and captivating news segments. Although AI can assist with research and the creation of standard articles, creative design and the human perspective remain central to this profession.",
+        "socialReasoningEnglish": "Reporters often have a social component in their work as they conduct interviews, meet people in unique situations, and tell their stories. This job requires social interactions, making it less susceptible to complete automation by AI.",
+        "job": "Reporter/in"
     }
 ]
