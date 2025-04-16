@@ -1546,5 +1546,41 @@
         "creativeReasoningEnglish": "Telemarketing requires little creative problem-solving or creative approaches because the majority of the work involves pre-made scripts and standardized communication patterns.",
         "socialReasoningEnglish": "Telemarketing is a form of communication but is often considered impersonal and invasive. It involves little social interaction in terms of building relationships or deep interpersonal connections.",
         "job": "Telemarketing"
+    },
+    {
+        "category": "Manager",
+        "creative": 7.0,
+        "social": 8.0,
+        "creativityReasoning": "Der Aufsichtsrat muss unstrukturierte und umfassende Entscheidungen treffen, die \u00fcber automatisierte Systeme hinausgehen. Dies erfordert ein hohes Ma\u00df an Kreativit\u00e4t, da Probleme und Herausforderungen auf innovative und nicht standartisierte Weise gel\u00f6st werden m\u00fcssen.",
+        "socialReasoning": "Die Rolle des Aufsichtsrats erfordert st\u00e4ndige Interaktion mit anderen Vorst\u00e4nden, F\u00fchrungskr\u00e4ften und m\u00f6glicherweise externen Beratern. Daher hat der Job eine hohe Sozialbewertung, da es notwendig ist, starke Kommunikations- und Kollaborationsf\u00e4higkeiten zu haben.",
+        "jobEnglish": "Board of Directors",
+        "categoryEnglish": "Manager",
+        "creativeReasoningEnglish": "The Board of Directors needs to make unstructured and comprehensive decisions that go beyond automated systems. This requires a high level of creativity as problems and challenges must be solved in innovative and non-standardized ways.",
+        "socialReasoningEnglish": "The role of the Board of Directors requires constant interaction with other board members, executives, and possibly external consultants. Therefore, the job has a high social rating as it is necessary to have strong communication and collaboration skills.",
+        "job": "Aufsichtsrat"
+    },
+    {
+        "category": "Unterhaltung",
+        "creative": 7.0,
+        "social": 8.0,
+        "creativityReasoning": "Als Model m\u00fcssen kreative und innovative Techniken entwickelt werden, um sich von anderen abzuheben und eine einzigartige Pers\u00f6nlichkeit zu pr\u00e4sentieren, was einen hohen Grad an Kreativit\u00e4t erfordert.",
+        "socialReasoning": "Die Arbeit als Model beinhaltet oft den Umgang mit Menschen, Zusammenarbeit mit Fotografen, Designern und anderen Branchenprofis, das Kn\u00fcpfen von Kontakten und die Teilnahme an \u00f6ffentlichen Veranstaltungen, was starke soziale F\u00e4higkeiten erfordert.",
+        "jobEnglish": "Model",
+        "categoryEnglish": "Entertainment",
+        "creativeReasoningEnglish": "As a model, developing creative and innovative techniques to stand out and present a unique personality is crucial, which requires a high level of creativity.",
+        "socialReasoningEnglish": "Working as a model often involves dealing with people, collaborating with photographers, designers, and other industry professionals, networking, and participating in public events, which requires strong social skills.",
+        "job": "Model"
+    },
+    {
+        "category": "Unterhaltung",
+        "creative": 8.5,
+        "social": 5.0,
+        "creativityReasoning": "Der Beruf des Kunsthandwerkers (Schmuckdesigner) erfordert ein hohes Ma\u00df an k\u00fcnstlerischer Kreativit\u00e4t, um einzigartige und attraktive Schmuckst\u00fccke zu entwerfen. Diese kreative Arbeit ist schwer zu automatisieren, da sie individuelle Gestaltung und Anpassung erfordert.",
+        "socialReasoning": "Schmuckdesigner interagieren mit Kunden, um deren W\u00fcnsche und Vorstellungen zu verstehen und umzusetzen, wodurch eine moderate soziale Komponente im Beruf besteht.",
+        "jobEnglish": "Craftsman (Jewelry Designer)",
+        "categoryEnglish": "Entertainment",
+        "creativeReasoningEnglish": "The job of a craftsman (jewelry designer) requires a high level of artistic creativity to design unique and attractive jewelry pieces. This creative work is difficult to automate as it involves individual design and customization.",
+        "socialReasoningEnglish": "Jewelry designers interact with customers to understand their desires and visions, creating a moderate social component in the job.",
+        "job": "Kunsthandwerker (Schmuckdesigner)"
     }
 ]
