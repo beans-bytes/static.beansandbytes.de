@@ -1330,5 +1330,77 @@
         "creativeReasoningEnglish": "The work of a payroll and timekeeping clerk primarily involves administrative tasks and data processing, where there is little scope for creative solutions. The job is highly regulated and follows clear processes, hence the low creativity rating.",
         "socialReasoningEnglish": "There are social interactions with employees to address their payroll and timekeeping queries. These interactions require some social skills, but the job is not inherently social-focused.",
         "job": "Sachbearbeiter f\u00fcr Lohnbuchhaltung und Zeiterfassung"
+    },
+    {
+        "category": "Dienstleistung",
+        "creative": "2",
+        "social": "5",
+        "creativityReasoning": "Kassenmitarbeiter erfordern wenig kreative F\u00e4higkeiten, da der Job haupts\u00e4chlich aus sich wiederholenden Aufgaben wie Scannen von Artikeln und Handhabung von Transaktionen besteht.",
+        "socialReasoning": "Die Rolle eines Kassenmitarbeiters erfordert durchschnittliche soziale Interaktionen, da es notwendig ist, mit Kunden zu kommunizieren und ihnen bei Problemen zu helfen.",
+        "jobEnglish": "Cashier",
+        "categoryEnglish": "Service",
+        "creativeReasoningEnglish": "Cashier jobs require little creativity as the role primarily involves repetitive tasks such as scanning items and handling transactions.",
+        "socialReasoningEnglish": "The role of a cashier requires an average level of social interaction as it involves communicating with customers and assisting them with any issues.",
+        "job": "Kassenmitarbeiter"
+    },
+    {
+        "category": "Dienstleistung",
+        "creative": "2",
+        "social": "8",
+        "creativityReasoning": "Kundenbetreuung erfordert in den meisten F\u00e4llen keine hohe Kreativit\u00e4t, da die Aufgaben oft routinem\u00e4\u00dfig und vordefiniert sind. KI kann leicht Standardprozesse und -antworten \u00fcbernehmen.",
+        "socialReasoning": "Die Natur der Kundenbetreuung verlangt ein hohes Ma\u00df an sozialer Interaktion und Empathie, um die Kunden zufriedenzustellen. Menschliche Interaktion kann oft pers\u00f6nliche und emotionale Aspekte ber\u00fccksichtigen, die eine KI nicht vollst\u00e4ndig erfassen kann.",
+        "jobEnglish": "Customer Service Representative",
+        "categoryEnglish": "Service",
+        "creativeReasoningEnglish": "Customer service typically does not require high creativity as the tasks are often routine and predefined. AI can easily take over standard processes and responses.",
+        "socialReasoningEnglish": "The nature of customer service requires a high level of social interaction and empathy to satisfy customers. Human interaction can often account for personal and emotional aspects that AI cannot fully grasp.",
+        "job": "Kundenbetreuer"
+    },
+    {
+        "category": "Unterhaltung",
+        "creative": "9",
+        "social": "2",
+        "creativityReasoning": "Autoren m\u00fcssen in der Lage sein, kreative Geschichten und Inhalte zu entwickeln, die einzigartig sind und die Leser ansprechen. Obwohl KI-Textprogramme Texte generieren k\u00f6nnen, ist die menschliche Kreativit\u00e4t oft noch \u00fcberlegen.",
+        "socialReasoning": "Der Beruf des Autoren ist in der Regel eine einsame T\u00e4tigkeit, bei der der direkte menschliche Kontakt minimal ist.",
+        "jobEnglish": "Authors",
+        "categoryEnglish": "Entertainment",
+        "creativeReasoningEnglish": "Authors need to be able to develop creative stories and content that are unique and engaging to readers. Although AI text programs can generate texts, human creativity is often still superior.",
+        "socialReasoningEnglish": "The profession of an author is generally a solitary activity with minimal direct human contact.",
+        "job": "Autoren"
+    },
+    {
+        "category": "Experte",
+        "creative": "8",
+        "social": "4",
+        "creativityReasoning": "Grafikdesign erfordert ein hohes Ma\u00df an Kreativit\u00e4t, um einzigartige und wirkungsvolle Designs zu erstellen. Obwohl KI-Programme fotorealistische Bilder erzeugen k\u00f6nnen, ist die menschliche Kreativit\u00e4t, insbesondere in der Konzeptentwicklung und der individuellen Anpassung, schwer zu ersetzen.",
+        "socialReasoning": "Grafikdesigner arbeiten oft in Teams und interagieren mit Kunden, um deren Bed\u00fcrfnisse und Vorlieben zu verstehen. Diese sozialen Aspekte sind wichtig, aber nicht so dominant wie in Berufen, die direkten und kontinuierlichen menschlichen Kontakt erfordern.",
+        "jobEnglish": "Graphic Designer",
+        "categoryEnglish": "Expert",
+        "creativeReasoningEnglish": "Graphic design requires a high level of creativity to create unique and impactful designs. While AI programs can generate photorealistic images, human creativity, especially in concept development and personal customization, is hard to replace.",
+        "socialReasoningEnglish": "Graphic designers often work in teams and interact with clients to understand their needs and preferences. These social aspects are important but not as dominant as in professions that require direct and continuous human contact.",
+        "job": "Grafikdesigner"
+    },
+    {
+        "category": "Physisch",
+        "creative": "2",
+        "social": "3",
+        "creativityReasoning": "Die T\u00e4tigkeit des LKW- und Taxifahrers erfordert wenig kreative Probleml\u00f6sungen oder Innovation, da die Hauptaufgabe darin besteht, Passagiere oder Fracht von einem Ort zum anderen zu transportieren.",
+        "socialReasoning": "LKW- und Taxifahrer haben moderate Interaktionen mit anderen, haupts\u00e4chlich in Form von Passagierdiensten, was ein gewisses Ma\u00df an sozialer Kompetenz erfordert, jedoch nicht in hohem Ma\u00dfe.",
+        "jobEnglish": "Truck and Taxi Driver",
+        "categoryEnglish": "Physical",
+        "creativeReasoningEnglish": "The job of a truck and taxi driver requires little creative problem-solving or innovation, as the main task is to transport passengers or cargo from one location to another.",
+        "socialReasoningEnglish": "Truck and taxi drivers have moderate interactions with others, primarily in the form of passenger services, which require some level of social skills, but not to a high degree.",
+        "job": "LKW- und Taxifahrer"
+    },
+    {
+        "category": "Dienstleistung",
+        "creative": "2",
+        "social": "3",
+        "creativityReasoning": "B\u00f6rsenh\u00e4ndler erfordert analytische F\u00e4higkeiten und schnelle Entscheidungsfindung, aber wenig kreatives Denken, da viele dieser Aufgaben durch standardisierte Prozesse und Algorithmen abgedeckt werden k\u00f6nnen.",
+        "socialReasoning": "W\u00e4hrend B\u00f6rsenh\u00e4ndler eine gewisse Menge an sozialen Interaktionen haben k\u00f6nnen, insbesondere beim Networking und in Verhandlungsgespr\u00e4chen, ist der Gro\u00dfteil ihrer Arbeit unabh\u00e4ngig und kann durch KI-gest\u00fctzte Systeme ersetzt werden.",
+        "jobEnglish": "Stock Trader",
+        "categoryEnglish": "Service",
+        "creativeReasoningEnglish": "Stock trading requires analytical skills and quick decision-making, but little creative thinking, as many of these tasks can be covered by standardized processes and algorithms.",
+        "socialReasoningEnglish": "While stock traders may have some degree of social interaction, particularly in networking and negotiation conversations, the majority of their work is independent and can be replaced by AI-driven systems.",
+        "job": "B\u00f6rsenh\u00e4ndler"
     }
 ]
