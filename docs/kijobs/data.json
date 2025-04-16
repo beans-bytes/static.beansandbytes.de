@@ -1498,5 +1498,17 @@
         "creativeReasoningEnglish": "The job of a service and solution designer requires a high level of creativity to develop and optimize innovative service processes and customized solutions.",
         "socialReasoningEnglish": "The job involves significant social interactions with clients and internal teams to understand and successfully implement their requirements.",
         "job": "Service- und L\u00f6sungsdesigner"
+    },
+    {
+        "category": "Forschung",
+        "creative": -4.0,
+        "social": -2.0,
+        "creativityReasoning": "Viele T\u00e4tigkeiten in den Wirtschaftswissenschaften sind analytisch und datengetrieben, was bedeutet, dass sie weniger Kreativit\u00e4t erfordern und eher routinem\u00e4\u00dfig sind. KI kann hier Prozesse effizienter gestalten und Vorhersagen treffen.",
+        "socialReasoning": "Die Sozialbewertung ist relativ niedrig, da die Wirtschaftswissenschaften oft Einzelanalysen und datengesteuerte Modelle beinhalten, die weniger Interaktionen und Sozialkompetenz erfordern.",
+        "jobEnglish": "Economics",
+        "categoryEnglish": "Research",
+        "creativeReasoningEnglish": "Many tasks in economics are analytical and data-driven, which means they require less creativity and are more routine. AI can make processes more efficient and perform predictions.",
+        "socialReasoningEnglish": "The social score is relatively low because economics often involves individual analyses and data-driven models that require less interaction and social skills.",
+        "job": "Wirtschaftswissenschaft"
     }
 ]
