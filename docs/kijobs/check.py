@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import dspy
+import sys
 from pydantic import BaseModel
 
 class Job(BaseModel):
@@ -98,16 +99,16 @@ class JobAnalyzer(dspy.Signature):
     job_beschreibung: str = dspy.InputField(desc="Eine initiale beschreibung des Jobs, die aus dem artikel extrahiert wurde")
 
     category: str = dspy.OutputField(desc="Kategorie des Jobs. Muss eine dieser Kategorien sein: [Manager, Forschung,Gesundheitswesen,Experte,Bildung,Dienstleistung,Ingenieur,Regierung,Unterhaltung,Techniker,Physisch,Büro/Sachbearbeiter ]")
-    creative: str = dspy.OutputField(desc="Kreativitätsbewertung von 0 bis 10. Wie kreativ ist der Job? (je kreativer, desto weniger kann er von KI ersetzt werden)")
-    social: str = dspy.OutputField(desc="Sozialbewertung von 0 bis 10 Wie sozial ist der Job? (je sozialer, desto weniger kann er von KI ersetzt werden)")
+    creative: float = dspy.OutputField(desc="Kreativitätsbewertung von -10 bis 10. Wie kreativ ist der Job? -10 = garnicht kreativ. 10 = sehr kreativ. (je kreativer, desto weniger kann er von KI ersetzt werden)")
+    social: float = dspy.OutputField(desc="Sozialbewertung von -10 bis 10 Wie sozial ist der Job?  -10 = garnicht sozial. 10 = absolut sozial (je sozialer, desto weniger kann er von KI ersetzt werden)")
 
-    category_english: str = dspy.OutputField(desc="Kategorie auf Englisch")
-    creativity_reasoning: str = dspy.OutputField(desc="Begründung für die Kreativitätsbewertung")
-    social_reasoning: str = dspy.OutputField(desc="Begründung für die Sozialbewertung")
+    creativityReasoning: str = dspy.OutputField(desc="Begründung für die Kreativitätsbewertung")
+    socialReasoning: str = dspy.OutputField(desc="Begründung für die Sozialbewertung")
 
-    job_english: str = dspy.OutputField(desc="Jobtitel in English")
-    creative_reasoning_english: str = dspy.OutputField(desc="Reasoning for the creativity score in English")
-    social_reasoning_english: str = dspy.OutputField(desc="Reasoning for the social score in English")
+    jobEnglish: str = dspy.OutputField(desc="Jobtitel in English")
+    categoryEnglish: str = dspy.OutputField(desc="Kategorie auf Englisch")
+    creativeReasoningEnglish: str = dspy.OutputField(desc="Reasoning for the creativity score in English")
+    socialReasoningEnglish: str = dspy.OutputField(desc="Reasoning for the social score in English")
 
 def update_data_json(extracted_job, data,jobBeschreibung):
     """
@@ -120,6 +121,8 @@ def update_data_json(extracted_job, data,jobBeschreibung):
     prediction = jobAnalyzer(job_title=extracted_job,job_beschreibung=jobBeschreibung)
     predictionDict = prediction.toDict()
     predictionDict["job"] = extracted_job
+    #make all dictkeys camelcase
+    
     try:
         data.append(predictionDict)
     except json.JSONDecodeError as e:
